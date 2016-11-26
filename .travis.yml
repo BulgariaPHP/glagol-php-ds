@@ -2,9 +2,9 @@ language: php
 php:
   - '7.0'
 sudo: required
+before_install: echo "extension=ds.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 install:
   - pecl install ds
-  - sudo echo 'extension=ds.so' > /etc/php/7.0/cli/conf.d/30-ds.ini
 before_script:
   - composer install
 script:
