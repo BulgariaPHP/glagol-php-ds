@@ -1,6 +1,6 @@
 {
-  "name": "bulgaria-php/glagol-php-map-factory",
-  "description": "A factory for Ds/Map",
+  "name": "bulgaria-php/glagol-php-ds",
+  "description": "Internal Glagol library wrapping php-ds",
   "minimum-stability": "dev",
   "license": "gnu-gpl3",
   "authors": [
@@ -19,6 +19,7 @@
     "phpunit/phpunit": "5.6.*"
   },
   "require": {
+    "php": "^7.0",
     "php-ds/php-ds": "^1.1"
   },
   "suggest": {
