@@ -1,16 +1,8 @@
 {
   "name": "bulgaria-php/glagol-php-ds",
   "description": "Internal Glagol library wrapping php-ds",
-  "glagol": {
-    "framework": "laravel",
-    "orm": "doctrine",
-    "paths": {
-      "src": "src/",
-      "out": "compiled/"
-    }
-  },
   "minimum-stability": "dev",
-  "license": "gnu-gpl3",
+  "license": "GPL-3.0",
   "authors": [
     {
       "name": "Yoan-Alexander Grigorov",
