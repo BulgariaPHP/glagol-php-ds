@@ -20,9 +20,7 @@
   },
   "require": {
     "php": "^7.0",
-    "php-ds/php-ds": "^1.1"
-  },
-  "suggest": {
-    "ext-ds": "to improve performance and reduce memory usage"
+    "php-ds/php-ds": "^1.1",
+    "ext-ds": "^1.1"
   }
 }
