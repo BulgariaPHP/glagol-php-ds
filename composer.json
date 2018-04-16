@@ -1,5 +1,5 @@
 {
-  "name": "glagol-dsl/php-ds",
+  "name": "glagol-dsl/ds",
   "description": "Internal Glagol library wrapping php-ds",
   "minimum-stability": "dev",
   "license": "GPL-3.0",
